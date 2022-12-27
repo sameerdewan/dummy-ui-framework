@@ -1,0 +1,29 @@
+{
+  "name": "dummy-ui-framework",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerdewan/dummy-ui-framework.git"
+  },
+  "author": "Sameer Dewan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerdewan/dummy-ui-framework/issues"
+  },
+  "homepage": "https://github.com/sameerdewan/dummy-ui-framework#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
